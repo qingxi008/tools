@@ -1,0 +1,20 @@
+{
+  "name": "qingxi/tools",
+  "description": "service tools",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Qing Xi",
+      "email": "253125240@qq.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "QingXi\\Tools\\": "src/"
+    }
+  }
+}
